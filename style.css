@@ -2,11 +2,6 @@
     margin: 0;
 }
 
-.wrapper {
- 
- margin: 10px 300px 100px 300px; 
-}
-
 /*  Header Top */
 .header-container {
     background-color: #1F2937;
@@ -71,6 +66,7 @@ ul a {
 }
 
 .header-bottom-left #submit {
+    border: 2px #3882F6 solid;
     font-weight: bold;
     width: 100px;
     height: 30px;
@@ -78,6 +74,13 @@ ul a {
     background-color: #3882F6;
     color: white;
     margin: 0px 0px 0px 250px;
+    cursor: pointer;
+}
+
+.header-bottom-left #submit:hover {
+    background-color: #0b2d63;
+    color: white;
+    cursor: pointer;
 }
 
 .header-bottom-right {
@@ -202,20 +205,24 @@ text-align: center;
 }
 
 
-.signup-container .submit {
-    margin: 3px 0px 0px 150px;
-}
-
-.signup-container .submit button {
+.signup-box #submit {
+    margin: 0px 0px 0px 150px;
     font-weight: bold;
-    width: 150px;
-    height: 40px;
-    border: solid white;
+    width: 100px;
+    height: 35px;
+    border: 2px white solid;
     border-radius: 5px;
     background-color: #3882F6;
     color: white;
-    margin: 0px px 0px 250px;
+    cursor: pointer;
 }
+
+.signup-box #submit:hover {
+    background-color: #0b2d63;
+    color: white;
+    cursor: pointer;
+}
+
 
 /*  Footer Section */
 
